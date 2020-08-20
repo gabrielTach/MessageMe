@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use Semantic UI has CSS framework
+gem 'semantic-ui-sass'
+
+# Use Jquery as javascript framework
+gem 'jquery-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
