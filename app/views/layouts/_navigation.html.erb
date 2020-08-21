@@ -2,7 +2,7 @@
   <div class="ui container">
     <a class="item">
       <i class="bullhorn icon" style="color: rgba(193, 186, 107, 1)"></i>
-      Chatroom
+      <%= link_to "Chatroom", root_url, class: "item" %>
     </a>
     <a class="item">
       Messages
@@ -12,7 +12,7 @@
         Account <i class="dropdown icon"></i>
         <div class="menu">
           <a class="item">Log out</a>
-          <a class="item">Log in</a>
+          <%= link_to "Log in", "login", class: "item" %>
           <a class="item">Sign up</a>
         </div>
       </div>
